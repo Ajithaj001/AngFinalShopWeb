@@ -1,0 +1,143 @@
+<!-- <section>
+    <nav class="navbar bg-light ">
+        <div class="container-fluid">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h3 class="offcanvas-title" id="offcanvasNavbarLabel">Products</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">jeans</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">jacket & coats</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">launga wears</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">polo shirts</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="text-decoration: underline;">
+                    Under Wear
+                  </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">shirts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">shorts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">suits</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">SwimWear</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">TrackSuits</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Trousers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">T-shirt</a>
+                        </li>
+                        <hr>
+                        <li class="nav-item" id="radio">
+                            <p>color</p>
+                            <input type="radio"> <input type="radio"> <input type="radio"> <input type="radio"></li>
+                        <label for="customRange1" class="form-label">Example range</label>
+                        <input type="range" class="form-range" id="customRange1">
+                    </ul>
+
+
+                </div>
+            </div>
+        </div>
+    </nav>
+</section> -->
+
+<aside class="sidemenu">
+    <section>
+
+        <div class="menu-container">
+            <div class="menu-toggler" (click)="toggleMenu()" style="float: right;"><i class="bi bi-list"></i></div>
+            <div class="menu" *ngIf="isMenuOpened">
+
+                <h1>Procuct</h1>
+                <hr>
+                <div class="menu-togglerOne" (click)="toggleMenuOne()">
+                    All category &nbsp;&nbsp; -</div>
+                <div class="menu1" *ngIf="isOpenMenu">
+                    <menu class="menu-item">Jeans</menu>
+                    <menu class="menu-item">Jackets &coats</menu>
+                    <menu class="menu-item">Laungwear</menu>
+                    <menu class="menu-item">polo shirts</menu>
+                    <div class="menu-toggler" (click)="toggleMenuwo()" style="text-decoration: underline;">
+                        UnderWear &nbsp;&nbsp; -</div>
+                    <div class="menu1" *ngIf="isOpenMenuOne">
+
+                        <menu class="menu-item">Bikini</menu>
+
+                        <menu class="menu-item">Casual</menu>
+
+                        <menu class="menu-item">Madam</menu>
+
+
+
+
+                    </div>
+                    <div class="menu1">
+                        <menu class="menu-item">Shirts</menu>
+                        <menu class="menu-item">Shorts</menu>
+                        <menu class="menu-item">Suits</menu>
+                        <menu class="menu-item">Swimwear</menu>
+                        <menu class="menu-item">Tracksuit</menu>
+                        <menu class="menu-item">Trousers</menu>
+                        <menu class="menu-item">T-shirts</menu>
+
+
+
+                    </div>
+
+
+                    <p>Color:</p>
+                    <button class="one-btn" style="background-color: red;"></button>
+                    <button class="one-btn" style="background-color: yellow;"></button>
+                    <button class="one-btn" style="background-color: pink;"></button>
+                    <button class="one-btn" style="background-color: rgb(33, 9, 210);"></button><br><br>
+
+                    <label for="customRange2" class="form-label">Example range</label>
+                    <input type="range" class="form-range" min="0" max="5" id="customRange2">
+
+
+
+                </div>
+
+
+
+            </div>
+
+
+
+
+
+        </div>
+    </section>
+</aside>

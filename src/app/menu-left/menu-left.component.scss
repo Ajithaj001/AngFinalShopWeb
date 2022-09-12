@@ -1,0 +1,49 @@
+.bg-light .navbar {
+    width: 20px;
+    ;
+}
+
+.sidemenu {
+    float: left;
+    margin-top: -20px;
+    ;
+}
+
+.menu-container {
+    width: 200px;
+    background-color: whitesmoke;
+    ;
+}
+
+.menu-item {
+    cursor: pointer;
+    padding: 5px 0;
+}
+
+.menu-item:hover {
+    text-decoration: underline
+}
+
+.button {
+    background-color: #04AA6D;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 1px;
+    cursor: pointer;
+}
+
+.one-btn {
+    text-decoration: none;
+    display: none;
+    display: inline-block;
+    padding: 6px;
+    width: 3px;
+    border-radius: 50%;
+    border: none;
+}

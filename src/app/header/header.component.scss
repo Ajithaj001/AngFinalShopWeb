@@ -1,0 +1,27 @@
+#top {
+    display: flex;
+    flex-direction: row;
+    gap: 25rem;
+    flex-wrap: wrap;
+    -ms-flex-align: baseline;
+}
+
+.search input[type="text"] {
+    border-style: none;
+    border-bottom: 1px solid black;
+    margin-top: 10px;
+    ;
+}
+
+.title .ST {
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+.right {
+    margin-top: 43px;
+    margin-right: 1px;
+    flex-wrap: wrap;
+    // margin-left: 100px;
+    // gap: 5rem;
+}
